@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    line-height: 1.6;
+    font-size: 18px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+
+  
+  header .logo h1 {
+    font-size: 46px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background-image: url(shop.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    height: 700px;
+  }
+  
+  .hero h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    
+  }
+  
+  .product-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .product-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product h3 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  
+  .product button {
+    background-color: rgba(255, 0, 0, 0.6);
+    color:white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .product button:hover {
+    background-color: #45a049;
+  }
+  
+  .about-section, .contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color:rgba(255, 17, 0, 0.132);
+   
+  }
+  
+  footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
+  
